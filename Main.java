@@ -1,3 +1,4 @@
+//Read in "input.txt" and output the text in reverse order to the screen.
 package holidayprac;
 import java.io.*;
 
@@ -18,7 +19,7 @@ public class Main {
 	String st; 
 	while ((st = br.readLine()) != null) {
 		//System.out.println(st); 
-		String[] str = st.split("[[ ]*|[,]*|[)]*|[(]*|[\\\"]*|[;]*|[-]*|[:]*|[']*|[’]*|[\\\\.]*|[:]*|[/]*|[!]*|[?]*|[+]*]+");
+		String[] str = st.split("[[ ]*|[,]*|[)]*|[(]*|[\\\"]*|[;]*|[-]*|[:]*|[']*|[â€™]*|[\\\\.]*|[:]*|[/]*|[!]*|[?]*|[+]*]+");
 		for(int i = 0; i < str.length; i++)
 		{
 		System.out.println(str[i]);
